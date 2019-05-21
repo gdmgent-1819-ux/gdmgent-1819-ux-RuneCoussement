@@ -1,17 +1,153 @@
-.sg-title {
-    font-size: 1.7rem;
-    font-weight: 400;
-    color: #333;
-    margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+@import url('http://nl.allfont.net/allfont.css?fonts=lucida-console');
+@import url('//db.onlinewebfonts.com/c/5c452fb7a0f5751f4e94e9d84eb01154?family=Segoe+Script');
+
+* {
+    margin: 0 auto;
+    padding: 0;
 }
 
-.sg-subtitle {
-    font-size: 1rem;
-    border-bottom: solid 1px #aaa;
-    font-weight: 400;
-    color: #666;
+body {
+    margin: 20px 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
     text-transform: uppercase;
-    margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.colors {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    min-height: 300px;
+    min-width: 300px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card.brown {
+    background-color: #DA9558;
+}
+
+.card.blue-light {
+    background-color: #57C1D9;
+}
+
+.card.brown-dark {
+    background-color:#8D592A;
+}
+
+.card.blue-dark {
+    background-color:#1B798C;
+}
+
+.card.brown-light {
+    background-color:#FBF6F2;
+}
+
+.card.white {
+    background-color:#FFFFFF;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family:'Bowlby One SC', cursive, 'sans-serif'; 
+}
+
+.subtitle {
+    font-family: 'Segoe Script', 'sans-serif';
+}
+
+.text {
+    font-family: 'Lucida Console', arial, 'sans-serif';
+}
+
+.fonts {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.btnHome {
+    border: none;
+    background-color: #FFFFFF;
+    color:#DA9558;
+    font-family: 'Segoe Script', 'sans-serif';
+    font-size: 24px;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.btnHome.hover:hover {
+    color: #57C1D9;
+    transition: .3s ease-in-out;
+}
+
+.btnHome.clicked {
+    color: #57C1D9;
+}
+
+.btnBistro {
+    border: none;
+    background-color: #DA9558;
+    color: #FBF6F2;
+    font-family: 'Segoe Script', 'sans-serif';
+    font-size: 24px;
+    margin: 15px;
+    text-transform: uppercase; 
+    padding: 5px 75px 5px 30px;
+}
+
+.btnBistro.hover:hover {
+    background-color: #FBF6F2;
+    color:#DA9558;
+    transition: .3s ease-in-out;
+}
+
+.btnBistro.clicked {
+    background-color: #FBF6F2;
+    color:#DA9558;
+}
+
+.btnVerzend {
+    border: none;
+    background-color: #57C1D9;
+    border-radius: 5px;
+    color: #FBF6F2;
+    font-family: 'Bowlby One SC', cursive, 'sans-serif'; 
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.btnVerzend.hover:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
 }
