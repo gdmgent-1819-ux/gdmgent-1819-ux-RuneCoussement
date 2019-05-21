@@ -1,26 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+@import url('http://nl.allfont.net/allfont.css?fonts=lucida-console');
+@import url('//db.onlinewebfonts.com/c/5c452fb7a0f5751f4e94e9d84eb01154?family=Segoe+Script');
+
 
 :root {
-  /**
-   * Colour palette
-   */
-  --c-primary: hsl(190, 100%, 40%);
+    /* Colors */
 
-  /**
-   * Layout
-   */
-  --l-gutter: 1rem;
+    --c-ahs-licht-blauw:#57C1D9;
+    --c-ahs-donker-blauw: #1B798C;
+    --c-ahs-licht-bruin: #FBCEA4;
+    --c-ahs-bruin:#DA9558 ;
+    --c-ahs-donker-bruin: #8D592A;
+    --c-ahs-wit:#FBF6F2;
 
-  /**
-   * Typography
-   */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
 
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+    --c-primary: var(--c-ahs-bruin);
+    --c-secondary: var(--c-ahs-licht-blauw);
+    --c-tertiary: var(--c-ahs-wit);
+
+
+    /* Fonts */
+
+    --f-title:'Bowlby One SC', cursive, 'sans-serif';
+    --f-text: 'Lucida Console', arial, 'sans-serif';
+    --f-subtitle: 'Segoe Script', 'sans-serif';
+
+
+    /* Grid */
+    
+    --unit: .5rem;
 }
-
 
