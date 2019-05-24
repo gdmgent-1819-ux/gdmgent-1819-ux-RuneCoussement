@@ -69,15 +69,16 @@ h1 {
 
 h3 {
     font-size: 24px;
-    text-transform: uppercase;
 }
 
 .title {
     font-family:'Bowlby One SC', cursive, 'sans-serif'; 
+    text-transform: uppercase;
 }
 
 .subtitle {
     font-family: 'Segoe Script', 'sans-serif';
+    text-transform: uppercase;
 }
 
 .text {
@@ -89,10 +90,14 @@ h3 {
     flex-flow: row wrap;
 }
 
+.font_text {
+    padding: 10px;
+}
+
 .button {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .btnHome {
@@ -110,9 +115,6 @@ h3 {
     transition: .3s ease-in-out;
 }
 
-.btnHome.clicked {
-    color: #57C1D9;
-}
 
 .btnBistro {
     border: none;
@@ -123,6 +125,8 @@ h3 {
     margin: 15px;
     text-transform: uppercase; 
     padding: 5px 75px 5px 30px;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .btnBistro.hover:hover {
@@ -131,10 +135,6 @@ h3 {
     transition: .3s ease-in-out;
 }
 
-.btnBistro.clicked {
-    background-color: #FBF6F2;
-    color:#DA9558;
-}
 
 .btnVerzend {
     border: none;
@@ -145,6 +145,7 @@ h3 {
     font-size: 24px;
     text-transform: uppercase;
     padding: 10px;
+    margin: 0;
 }
 
 .btnVerzend.hover:hover{
