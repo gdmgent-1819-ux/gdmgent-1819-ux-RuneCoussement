@@ -152,3 +152,47 @@ h3 {
     transform: scale(1.1);
     transition: .3s ease-in-out;
 }
+
+.social_media {
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #57C1D9;
+}
+
+.fab {
+    margin: 10px;
+}
+
+.menu_balk {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+
+    list-style: none;
+}
+
+.page {
+    padding: 20px;
+    text-decoration: none;
+
+    font-family:  var(--f-subtitle);
+    text-transform: uppercase;
+    color: var(--c-ahs-bruin);
+    background-color: var(--c-ahs-wit);
+}
+
+.page.current {
+    color: var(--c-ahs-licht-blauw);
+}
+
+.page:hover {
+    color: var(--c-ahs-licht-blauw);
+    transition: .3s ease-in-out;
+}
+
+.menu_balk li {
+    margin: 10px 0px 20px 0px;
+}
